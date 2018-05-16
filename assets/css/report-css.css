@@ -1,0 +1,19 @@
+body {
+
+  background-image: url("../img/pic/R0003207.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #FFFF;
+}
+  li {
+    list-style-type: none;
+    font-family: serif;
+  }
+a {
+    display: block;
+    padding: 15px 0;
+    color: #FFFF;
+    text-decoration: none;
+    font-size: 16px;
+}

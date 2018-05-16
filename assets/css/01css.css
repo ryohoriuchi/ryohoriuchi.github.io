@@ -1,9 +1,10 @@
 body {
   text-align: center;
-  background-image: url("R0003588.jpg");
+  background-image: url("../R0003588.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  text-shadow: 1px 1px 0 #000
 
 
 }
