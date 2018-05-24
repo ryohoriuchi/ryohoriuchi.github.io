@@ -14,16 +14,6 @@ li {
 p{
   margin-bottom: 10em;
 }
-a {
-    display: block;
-    padding: 15px 0;
-    color: #FFFF;
-    text-decoration: none;
-    font-size: 16px;
-}
-.report_mozi{
-  margin-bottom: 15em;
-}
 
 .report_log {
     display: inline-table;
@@ -35,12 +25,19 @@ a {
     text-align: center;
     vertical-align: middle;
 }
+.report_log_item + .report_log_item {
+    border-left: 1px solid #CCC;
+  }
 .report_log_item a {
     display: block;
     padding: 15px 0;
-    margin-top: 2em;
-    margin-right: 2em;
     color: #FFFF;
     text-decoration: none;
     font-size: 20px;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+h2{
+  margin-right: 20px;
 }
