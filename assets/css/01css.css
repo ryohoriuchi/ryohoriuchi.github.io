@@ -12,7 +12,14 @@ li {
   list-style-type: none;
   font-family: serif;
 }
-
+.name{
+  padding: 30px
+}
+img{
+  width: 300px;
+  margin-top: 50px;
+  margin-bottom: 125px
+}
 .nav {
     display: inline-table;
     width: 80%;
@@ -24,7 +31,7 @@ li {
     vertical-align: middle;
 }
 .nav__item + .nav__item {
-    border-left: 1px solid #CCC;
+    border-left: 1px solid #080808;
 }
 .nav__item a {
     display: block;
