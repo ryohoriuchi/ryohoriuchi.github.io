@@ -1,10 +1,10 @@
 body {
   text-align: center;
-  background-image: url("../R0003588.jpg");
+  background-image: url("../img/pic/R0003783.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  text-shadow: 1px 1px 0 #000
+
 
 
 }
@@ -16,9 +16,9 @@ li {
   padding: 30px
 }
 img{
-  width: 300px;
-  margin-top: 50px;
-  margin-bottom: 125px
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 40px
 }
 .nav {
     display: inline-table;
@@ -31,7 +31,7 @@ img{
     vertical-align: middle;
 }
 .nav__item + .nav__item {
-    border-left: 1px solid #080808;
+    border-left: 1px solid #FFFF;
 }
 .nav__item a {
     display: block;
