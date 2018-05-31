@@ -1,7 +1,18 @@
 body{
-  text-align: center;
+  text-align: left;
   background-image: url("../R0003588.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  margin-top: 100px;
+}
+.icon{
+  margin-left: 200px;
+  margin-right: 100px;
+  float: left;
+}
+.about_me{
+  float: left;
+  margin-left: 20px;
+  
 }
