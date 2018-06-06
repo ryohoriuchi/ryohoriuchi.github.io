@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+  background-color: inherit;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  line-height: 50px;
+  color: #FFFF;
+  margin-left: 5em;
+}
+.movie{
+  margin: 50px;
+}
+.photo{
+  width: 500px;
+  margin-bottom: 30px
+}
+.nav {
+  margin-top: 420px;
+    display: inline-table;
+    width: 80%;
+    background-color: rgba(33, 39, 98, 0);
+}
+.nav__item {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.nav__item + .nav__item {
+    border-left: 1px solid #FFFF;
+}
+.nav__item a {
+    display: block;
+    padding: 15px 0;
+    color: #080808;
+    text-decoration: none;
+    font-size: 14px;
+}
