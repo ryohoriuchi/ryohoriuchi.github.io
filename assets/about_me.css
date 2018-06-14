@@ -1,5 +1,5 @@
 body{
-  text-align: left;
+  text-align: center;
   background-image: url("../R0003588.jpg");
   background-size: cover;
   background-position: center;
@@ -27,4 +27,27 @@ float: left;
 .about_me{
   float: left;
   margin-left: 200px;
+}
+.nav {
+  border-top: 1px solid #080808;
+  margin-top: 100px;
+  margin-bottom: 200px;
+    display: inline-table;
+    width: 80%;
+    background-color: rgba(33, 39, 98, 0);
+}
+.nav__item {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.nav__item + .nav__item {
+    border-left: 1px solid #FFFF;
+}
+.nav__item a {
+    display: block;
+    padding: 15px 0;
+    color: #080808;
+    text-decoration: none;
+    font-size: 14px;
 }

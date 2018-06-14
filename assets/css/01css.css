@@ -28,7 +28,7 @@ img{
 .nav {
   margin-top: 420px;
     display: inline-table;
-    width: 80%;
+    width: 60%;
     background-color: rgba(33, 39, 98, 0);
 }
 .nav__item {
