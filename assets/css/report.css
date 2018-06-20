@@ -5,16 +5,20 @@ body {
   background-attachment: fixed;
   color: #69821b;
   margin-top: 50px;
+  margin-left: 0px;
   position: fixed;
 }
 li {
   list-style-type: none;
   font-family: serif;
 }
+.title{
+  margin-left: 88px;
+}
 
 .nav {
   border-top: 1px solid #69821b;
-  margin: 50px 300px;
+  margin: 10px 300px 30px 300px;
     display: inline-table;
     width: 60%;
     background-color: rgba(33, 39, 98, 0);
