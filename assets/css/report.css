@@ -7,6 +7,7 @@ body {
   margin-top: 50px;
   margin-left: 0px;
   position: fixed;
+
 }
 li {
   list-style-type: none;
@@ -85,9 +86,9 @@ li {
     margin-right: 50px;
 }
 .main {
-  flex: auto;
+  flex: initial;
   min-width: 600px;
-  width: auto;
+  width: 80％;
   overflow-y: scroll;
 }
 
