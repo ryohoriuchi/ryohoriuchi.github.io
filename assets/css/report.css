@@ -7,7 +7,7 @@ body {
   margin-top: 50px;
   margin-left: 0px;
   position: fixed;
-
+  font-family: serif;
 }
 li {
   list-style-type: none;
