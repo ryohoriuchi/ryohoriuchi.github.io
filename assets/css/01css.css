@@ -47,6 +47,29 @@ img{
     font-size: 14px;
 }
 .contents {
+
+}
+.contentsbox {
+    width: 60%;
+    height: 200px;
+    border: 1px solid #ffffffff;
+    position: relative;
+    margin: auto;
+    transition: .4s;
+}
+.contentsbox:hover{
+  background: #00bcd4;
+    color: white;
+}
+
+.contentsbox a {
+  position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   text-align: center;
+   line-height: 150px;
   color: #FFFF;
   text-decoration: none;
 }
